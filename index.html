@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <title>E-Portfolio</title>
+  </head>
+  <body>
+    <!--  Navbar Section Start  -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-primary py-3 text-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">JPScott</a>
+
+        <!--  Hamburger Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#awd1100" class="nav-link">AWD1100</a>
+            </li>
+            <li class="nav-item">
+              <a href="#whyme" class="nav-link">Why Me?</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  Navbar Section End    -->
+
+    <!--  Hero/ShowCase  Start  -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      id="about"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>This is my <span class="text-warning">E-Portfolio</span></h1>
+            <p class="lead my-4 mx-4">
+              Hello and welcome to my e-portfolio. Please feel free to contact me if you have any questions. I'd love to hear from you!
+            </p>
+            <button class="btn btn-primary btn-lg"
+              <a href="JPS-CurrentResume.pdf"
+              target="_blank">
+              See My Resume</a>
+            </button>
+          </div>
+          <img class="img-fluid w-50 d-none d-sm-block mb-5"
+               src="images/me.jpg"
+               alt="Picture of Jeff Scott" />
+        </div>
+      </div>
+    </section>
+    <!--  Hero/Showcase  End    -->
+
+    <!--  AWD1100 Section Start -->
+    <section class="p-5" id="awd1100">
+      <div class="container">
+        <h2 class="text-center mb-4">
+          AWD1100 - Web Development Technologies
+        </h2>
+        <div class="row text-center g-4">
+          
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="cart-title mb-3">HTML 5</h3>
+                <p class="card-text">
+                  Hypertext Markup Language (HTML) tags text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+                </p>
+                <a href="https://www.w3schools.com/html/default.asp" class="btn btn-dark" target="_blank">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="cart-title mb-3">CSS 3</h3>
+                <p class="card-text">
+                  Cascading Style Sheets (CSS) is used to descript how HTML elements are displayed on screen, paper, and other media. It controls page layout.
+                </p>
+                <a href="https://www.w3schools.com/css/default.asp" class="btn btn-dark" target="_blank">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="cart-title mb-3">JavaScript</h3>
+                <p class="card-text">
+                  JavaScript is an object-based programming language used to bring interactivity to web browsers. It can be used client-side or server-side.
+                </p>
+                <a href="https://www.w3schools.com/js/default.asp" class="btn btn-dark" target="_blank">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  AWD1100 Section End   -->
+  </body>
+</html>
